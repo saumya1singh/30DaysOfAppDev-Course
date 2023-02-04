@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/saumya"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:text="
+        Saumya is a software engineer and an educator with a keen interest in exploring new technologies and working for communities.
+For collabs and speaker invitations: saumyatheengineer@gmail.com
+or https://twitter.com/saumya1singh
+
+She has good experience in coding, development (android) and leadership roles.
+She has been honored with the International Women In Opensource Academic Award 2020 as a finalist based on her leadership qualities, community involvement and contributions.
+She has good experience in mentoring students ( GCI Mentor, guided open-source enthusiasts for GSoC at KWOC'19 (IIT-Kharagpur Initiative ) .
+Saumya has been Developer Advocate and Content Creator at AnitaB.org open-source teams.
+She has been winner and runner-up of 7+ hackathons from Smart India Hackathon 2019(India’s Biggest Hackathon that involves 2 Lakh+ students) to Delhi Police Hackathon 2019.
+"
+        />
+    </ScrollView>
+
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/saumya"
+        />
+
+</LinearLayout>
